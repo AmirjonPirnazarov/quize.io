@@ -16,6 +16,9 @@ body{
     background: #007bff;
 }
 
+.container{
+    width: 100%;
+}
 .start_btn,
 .info_box,
 .quiz_box,
@@ -50,7 +53,7 @@ body{
 }
 
 .info_box{
-    width: 540px;
+    max-width: 540px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -108,7 +111,7 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    max-width: 550px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -311,7 +314,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+    max-width: 450px;
     align-items: center;
     flex-direction: column;
     justify-content: center;

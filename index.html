@@ -1,50 +1,41 @@
 <!-- Created By CodingNepal - www.codingnepalweb.com  -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Quiz App | CodingNepal</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
     <!-- FontAweome CDN Link for Icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <style>
-    body {
-        -webkit-touch-callout: none; /* iOS Safari */
-        -webkit-user-select: none; /* Safari */
-        -khtml-user-select: none; /* Konqueror HTML */
-        -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-        user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
-    }
-</style>
 </head>
-<body oncontextmenu="return false;">
-    <!-- start Quiz button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
+<body>
+    <div class="container">
+        <!-- start Quiz button -->
+    <div class="start_btn"><button>Начать</button></div>
 
     <!-- Info Box -->
     <div class="info_box">
         <div class="info-title"><span>Some Rules of this Quiz</span></div>
         <div class="info-list">
-            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
-            <div class="info">2. Once you select your answer, it can't be undone.</div>
-            <div class="info">3. You can't select any option once time goes off.</div>
-            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
-            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+            <div class="info">1. На каждый вопрос у вас будет всего <span>15 секунд</span>.</div>
+            <div class="info">2. После того как вы выберете ответ, его нельзя будет отменить.</div>
+            <div class="info">3. Вы не сможете выбрать какой-либо вариант, как только время истечет.</div>
+            <div class="info">4. Вы не можете выйти из теста во время игры.</div>
+            <div class="info">5. Вы получите баллы на основе правильных ответов.</div>
         </div>
         <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
+            <button class="quit">Закрыть</button>
+            <button class="restart">Продолжить</button>
         </div>
     </div>
 
     <!-- Quiz Box -->
     <div class="quiz_box">
         <header>
-            <div class="title">Awesome Quiz Application</div>
+            <div class="title">Название викторины</div>
             <div class="timer">
-                <div class="time_left_txt">Time Left</div>
+                <div class="time_left_txt">Осталось:</div>
                 <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
@@ -63,7 +54,7 @@
             <div class="total_que">
                 <!-- Here I've inserted Question Count Number from JavaScript -->
             </div>
-            <button class="next_btn">Next Que</button>
+            <button class="next_btn">Cледующий</button>
         </footer>
     </div>
 
@@ -72,13 +63,13 @@
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="complete_text">Вы прошли тест!</div>
         <div class="score_text">
             <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
-            <button class="restart">Replay Quiz</button>
-            <button class="quit">Quit Quiz</button>
+            <button class="restart">Повторить</button>
+            <button class="quit">Закрыть</button>
         </div>
     </div>
 
@@ -87,6 +78,8 @@
 
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->
     <script src="js/script.js"></script>
+    </div>
+    
 
 </body>
 </html>
