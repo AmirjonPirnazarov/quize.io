@@ -9,6 +9,7 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
+const closeButton = document.querySelector(".close_button");
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
@@ -213,3 +214,10 @@ function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> из <p>'+ questions.length +'</p> Вопросов</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
+
+closeButton.addEventListener("click", function() {
+    // Закрываем окно или выполняем другие действия при нажатии на кнопку
+    // Например, можно закрыть модальное окно или перенаправить пользователя на другую страницу
+    // В данном случае, давайте просто закроем текущее окно
+    window.close();
+});
