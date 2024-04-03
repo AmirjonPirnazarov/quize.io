@@ -2,59 +2,48 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Что означает аббревиатура - 2G?",
+    answer: "Второе поколение мобильной связи",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "Второе поколение мобильной связи",
+      "Третье поколение мобильной связи",
+      "Четвертое поколение мобильной связи"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Что означает аббревиатура - 3G?",
+    answer: "Третье поколение мобильной связи",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "Второе поколение мобильной связи",
+      "Третье поколение мобильной связи",
+      "Четвертое поколение мобильной связи",
+      "Пятое поколение мобильной связи"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Что означает аббревиатура - BTS?",
+    answer: "Базовая станция",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Базовая станция",
+      "Base Transmit Station  базовая станция GSM - 2G",
+      "Мобильная станция (мобильный телефон)",
+      "Сервис мултимедийных сообщения"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Что означает аббревиатура - HSDPA?",
+    answer: "Высокоскоростная пакетная передача данных от базовой станции к мобильному телефону в сети 3G",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Высокоскоростная пакетная передача данных от мобильного телефона к базовой станции в сети 3G",
+      "Высокоскоростная пакетная передача данных от базовой станции к мобильному телефону в сети 3G",
+      "Сеть 4G",
+      "Улучшенная технология передачи данных в сетях 2G"
     ]
   },
-    {
-    numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
-    options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
-    ]
-  },
+    
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 

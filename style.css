@@ -72,6 +72,7 @@ body{
     border-radius: 5px 5px 0 0;
     font-size: 20px;
     font-weight: 600;
+    margin: 5px 0px;
 }
 
 .info_box .info-list{
@@ -99,7 +100,7 @@ body{
 .info_box .buttons button{
     margin: 0 5px;
     height: 40px;
-    width: 100px;
+    width: 120px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -139,16 +140,14 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #004085;
-    background: #cce5ff;
-    border: 1px solid #b8daff;
+    
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    
 }
 
 .quiz_box header .timer .time_left_txt{
